@@ -1,0 +1,27 @@
+$palette: (
+  light10: #ffffff,
+  dark10: #252525,
+  dark20: #202020,
+  grey10: #bbbbbb,
+);
+
+$gradients: (
+  darkToBlue: linear-gradient(137.96deg, rgba(150, 150, 150, 0.25) 0%, rgba(70, 92, 209, 0.25) 100%),
+);
+
+$font-sizes: (
+  xs: 1.2rem,
+  sm: 1.4rem,
+  md: 2.4rem,
+  lg: 3.2rem,
+  xl: 4rem,
+);
+
+$breakpoints: (
+  desktop: 1024px,
+);
+
+$radiuses: (
+  sm: 20px,
+  md: 25px,
+);

@@ -1,0 +1,33 @@
+@mixin resetButtonStyle {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+@mixin resetInputStyle {
+  &,
+  :focus {
+    border: none;
+    outline: none;
+  }
+}
+
+@mixin scrollStyle {
+  &::-webkit-scrollbar {
+    height: 12px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: map-get($gradients, 'darkToBlue');
+    border-radius: 2.5rem;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: map-get($palette, 'dark20');
+    border-radius: 2.5rem;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: map-get($palette, 'dark10');
+  }
+}

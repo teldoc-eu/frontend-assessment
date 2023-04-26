@@ -25,3 +25,45 @@ The time restrictions varies with each case and candidate's availability. You de
 
 ## Do you still have questions?
 Send an email to jose.porto@teldoc.eu if you feel you don't have enough information to proceed.
+
+---
+
+# Weather App
+
+## Setup
+
+1. Install the application:
+```bash
+npm i
+```
+
+2. Copy .env.example to .env
+```bash
+cp .env.example .env
+```
+
+3. Fill in all variables in .env file
+
+## Start application
+```bash
+npm run dev
+```
+
+## Build application
+```bash
+npm run build
+```
+To start built application locally use command:
+```bash
+npm run preview
+```
+
+## Run unit tests
+```bash
+npm run test:unit
+```
+
+## Run e2e tests
+```bash
+npm run test:e2e
+```
