@@ -1,6 +1,6 @@
 <script setup lang="ts">
-  import CardComponent from '../../core/card/CardComponent.vue';
-  import DividerComponent from '../../core/divider/DividerComponent.vue';
+import CardComponent from '../../core/card/CardComponent.vue';
+import DividerComponent from '../../core/divider/DividerComponent.vue';
 </script>
 
 <template>

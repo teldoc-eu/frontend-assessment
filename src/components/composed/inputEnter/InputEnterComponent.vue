@@ -28,7 +28,9 @@ const handleChange = (value: string) => {
     @keydown.enter="() => handleEnter(inputValue)"
     :class="['input', size]"
   />
-  <button :class="['adornment', size]" @click="() => handleEnter(inputValue)" aria-label="enter"><IconArrow /></button>
+  <button :class="['adornment', size]" @click="() => handleEnter(inputValue)" aria-label="enter">
+    <IconArrow />
+  </button>
 </template>
 
 <style scoped lang="scss">

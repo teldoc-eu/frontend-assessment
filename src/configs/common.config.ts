@@ -3,5 +3,5 @@ export const sizeType = {
   sm: 'sm',
   md: 'md',
   lg: 'lg',
-  xl: 'xl'
+  xl: 'xl',
 } as const;

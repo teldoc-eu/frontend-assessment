@@ -13,7 +13,9 @@ export const findWeatherConditions = (weatherCode: number): ConditionMapped | un
 export const findAqi = (aqiIndex: number): AirQualityMapped | undefined =>
   airQuality.find((aqi) => aqi.index === aqiIndex);
 
-export const mapWeatherCurrent = (currentData: WeatherDTO['current'] | undefined): CurrentWeatherMapped => {
+export const mapWeatherCurrent = (
+  currentData: WeatherDTO['current'] | undefined
+): CurrentWeatherMapped => {
   if (!currentData) {
     return {
       temperature: undefined,

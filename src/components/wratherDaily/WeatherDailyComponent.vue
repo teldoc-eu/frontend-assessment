@@ -12,7 +12,7 @@ interface Props {
   }[];
 }
 
-const { datePlusDays} = useDate()
+const { datePlusDays } = useDate();
 
 defineProps<Props>();
 </script>

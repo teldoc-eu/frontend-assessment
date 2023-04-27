@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { UseLocationStorage } from '@/composables/useLocationStorage/useLocationStorage.type';
-import InputEnterComponent from "../composed/inputEnter/InputEnterComponent.vue";
+import InputEnterComponent from '../composed/inputEnter/InputEnterComponent.vue';
 
 interface Props {
   locationSetter: UseLocationStorage['setLocationStorageKey'];
