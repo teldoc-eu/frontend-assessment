@@ -63,6 +63,7 @@ defineProps<Props>();
   }
   svg {
     scale: 2;
+    margin-left: 10%;
   }
   @include scrollStyle;
 }

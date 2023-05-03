@@ -70,7 +70,7 @@ export const mapWeatherDaily = (dailyData: WeatherDTO['forecast']['forecastday']
   });
 };
 
-export const mapWeather = (weatherAndLocationData: WeatherDTO | undefined): WeatherMapped => {
+export const mapWeather = (weatherAndLocationData: WeatherDTO | null): WeatherMapped => {
   if (!weatherAndLocationData) {
     return {};
   }

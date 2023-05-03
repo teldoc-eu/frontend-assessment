@@ -5,5 +5,3 @@ import WeatherView from './views/WeatherView.vue';
 <template>
   <WeatherView />
 </template>
-
-<style scoped></style>
